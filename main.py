@@ -36,3 +36,4 @@ if __name__ == '__main__':
     #bmi_calculator(float(input("input mass: ")),float(input("input height: ")))
     second_convertor(int(input("input day: ")),int(input("input hours: ")),int(input("input minutes: ")),int(input("input seconds: ")))
     # print_hi('PyCharm')
+
