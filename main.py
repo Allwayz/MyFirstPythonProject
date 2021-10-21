@@ -6,11 +6,20 @@
 
 def print_hi(name):
     # 在下面的代码行中使用断点来调试脚本。
-    print(f'Hi, {name}')  # 按 ⌘F8 切换断点。
+    print(f'Hi, {name}')
+
+
+# exercise 17: Write a Python program to find whether a given number (accept from the user) is even or odd,
+# print out an appropriate message to the user.
+def check_odd_or_even(input_number):
+    # input_number = float(input("input a number"))
+    if input_number % 2 == 0:
+        print(f"number {input_number} is even")
+    else:
+        print(f"number {input_number} is odd")
 
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
+    check_odd_or_even(float(input("input a number: ")))
+    # print_hi('PyCharm')
