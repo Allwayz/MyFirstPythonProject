@@ -18,8 +18,21 @@ def check_odd_or_even(input_number):
     else:
         print(f"number {input_number} is odd")
 
+# exercise 18: Write a Python program to calculate the body mass index (BMI).
+def bmi_calculator(mass,height):
+    BMI = mass/height**2
+    print(BMI)
+
+# exercise 19: Write a Python program to convert any number of days, hours, minutes and seconds into second.
+def second_convertor(day,hours,minutes,seconds):
+    result = day*24*60*60 + hours*60*60 + minutes*60 + seconds
+    result_e = ((day*24+hours)*60+minutes)*60+seconds
+    print(result,result_e)
+
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    check_odd_or_even(float(input("input a number: ")))
+    #check_odd_or_even(float(input("input a number: ")))
+    #bmi_calculator(float(input("input mass: ")),float(input("input height: ")))
+    second_convertor(int(input("input day: ")),int(input("input hours: ")),int(input("input minutes: ")),int(input("input seconds: ")))
     # print_hi('PyCharm')
