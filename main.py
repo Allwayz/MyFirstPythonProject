@@ -8,7 +8,6 @@ def print_hi(name):
     # 在下面的代码行中使用断点来调试脚本。
     print(f'Hi, {name}')
 
-
 # exercise 17: Write a Python program to find whether a given number (accept from the user) is even or odd,
 # print out an appropriate message to the user.
 def check_odd_or_even(input_number):
