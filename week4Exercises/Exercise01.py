@@ -13,5 +13,6 @@ def right_justify():
     print(s_spaced)
 
 
+
 if __name__ == '__main__':
     right_justify()
